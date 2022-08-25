@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Flex Form</title>
+  </head>
+  <body>
+    <section id="registration-page">
+      <form class="signup-form">
+        <div class="form-header">
+          <h1><span>Register</span></h1>
+          <p>Create your account. It's free and only takes a minute</p>
+        </div>
+        <div class="form-body">
+          <div class="row">
+            <div class="input-group">
+              <label> </label>
+              <input type="text" placeholder="First name" />
+            </div>
+            <div class="input-group">
+              <label></label>
+              <input type="text" placeholder="Last name" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-group">
+              <label></label>
+              <input type="email" placeholder="Email " />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-group">
+              <label> </label>
+              <input type="password" placeholder="Password" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-group">
+              <label></label>
+              <input type="password" placeholder="Confirm Password" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-group">
+              <label></label>
+              <div class="checkbox-group">
+                <div>
+                  <label for="confirmation">
+                    <input
+                      type="checkbox"
+                      name="confirmation"
+                      id="confirmation"
+                    />
+                    I accept the <span class="terms-use">Terms of Use</span> &
+                    <span class="terms-use">Privacy Policy</span>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-footer">
+            <button class="btn">Register now</button>
+          </div>
+        </div>
+      </form>
+    </section>
+  </body>
+</html>
